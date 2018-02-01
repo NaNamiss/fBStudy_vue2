@@ -1,4 +1,4 @@
-<<<<<<< f57f1e3240ccbbc03bc49378cebf1b35e4ca0ea4
+
 # fBStudy_vue2.0
 Vue2.0+vuex+node构建的全家桶Demo
 =======
