@@ -5,7 +5,8 @@ import axios from 'axios'
 // 定义一个变量，用来存储数据
 const state = {
     seller: {},
-    detailShow:false
+    detailShow:false,
+    // detailShow:true
 }
 
 // 获取数据
