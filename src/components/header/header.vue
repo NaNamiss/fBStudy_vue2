@@ -34,6 +34,7 @@ export default {
         height: 134px;
         line-height: 134px;
         text-align:center;
+        background: url(../../../static/images/bgheader.jpg) no-repeat;
         background-color: rgba(7,17,27,0.1);
         font-size: 14px;
         color:orange;

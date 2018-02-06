@@ -1,7 +1,7 @@
 <template>
     <transition enter-active-class="animated slideInRight" leave-active-class="animated slideOutRight">
         <div class="detail" v-show='detailShow'>
-          <span class="noticeClose">X</span>
+          <span class="noticeClose" @click="hideDetail">X</span>
             <h1>公告</h1>
             <!-- <p class="bulletin">{{seller.bulletin}}</p> -->
             <h2>--优惠--</h2>
@@ -10,7 +10,6 @@
                     {{k+1}}.{{item.description}}
                 </li>
             </ul>
-            <button @click="hideDetail">关闭{{detailShow}}</button>
         </div>
     </transition>
 </template>
@@ -46,14 +45,15 @@ export default {
   .noticeClose {
     position: absolute;
     display: block;
-    width: 30px;
-    height: 30px;
     background-color: #000;
     color: #fff;
-    border-radius: 15px;
+    border-radius: 20px;
+    padding: 3%;
+    right: 13%;
+    top: 2%;
   }
   h1 {
-    margin-top: 25%; 
+    margin-top: 25%;
     margin-left: 30%;
     margin-bottom: 10%;
     font-size: 24px;
@@ -64,7 +64,6 @@ export default {
     margin-bottom: 10px;
   }
   .bulletin {
-    
   }
   ul li {
     list-style-type: none;
