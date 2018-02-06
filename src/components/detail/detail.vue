@@ -64,6 +64,7 @@ export default {
     margin-bottom: 10px;
   }
   .bulletin {
+    
   }
   ul li {
     list-style-type: none;
